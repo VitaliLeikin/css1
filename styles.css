@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    /* width: 75%; */
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto Flex', sans-serif;
+
+    /* font: normal 16px 'Roboto Flex', sans-serif; */
+}
+
+a {
+    color: #0f141e;
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+   color: blue;
+}
+a:active {
+    color: red;
+}
+
+a:visited { 
+    color: rgb(0, 0, 0);
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 20px; /*Закругленные края*/
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); /*Тень*/
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info p {
+    color: #515050;
+    margin: 0; /*Отступ*/
+    font-style: italic;
+    /* text-transform: uppercase; весь текст с большой буквы */
+    letter-spacing: 2px; /*Растояние между буквами*/
+    /* word-spacing: 1px; Растояниемежду словами */
+}
+
+/* .social {
+    background: red ;
+    padding: 15px; Внутриний отступ
+    border: 5px solid green; Обводка
+    border-bottom: 5px dotted green;   
+    border-bottom-style: dotted ;
+    margin: 10px; Внешний отпуст
+} */
+
+.container {
+    max-width: 750px; 
+    margin: auto; 
+    padding-top: 10px;
+}
+
+/* .box-model >div { 
+    float: left;
+    background: black;
+    border:  4px solid red ;
+    height: 200px;
+    width: 25%;
+    box-sizing: border-box;
+    
+}*/
+
+.bg1 {
+    background: rgb(255, 181, 181);
+}
+
+.bg2 {
+    background: rgb(195, 253, 194);
+}
+
+.bg3 {
+    background: rgb(198, 181, 255);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+   margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding: 5px 5px;
+}
+
+.table tr:nth-child(even) {
+    background: rgb(195, 178, 178);
+}
+
+.link-list {
+   /* ?list-style: url('/like-svgrepo-com.svg');  */
+   list-style-type: "\1F44D";
+   font-size: larger;
+   font-style: bold;
+}
+
+.contact h2 {
+   text-align: center; 
+}
+
+.form-group label {
+display: block;
+font-size: 16px;
+}
+
+.form-group input,
+ .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none; /*Границы*/
+    border-bottom: 1px solid #0f141e;
+    padding: 15px 0px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    /* background: transparent; Безцветный */
+}
+
+.btn {
+    color: white;
+    background: black;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* pocition - Возможность плавающей строки
+
+.position {
+position: relative
+}
+
+.box {
+position: fixed;
+border-radius: 10px;
+top: 0px;
+width: 100%;
+height: 40px;
+background: darkturquoise;
+}*/
